@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 10000;
 
 // Set up the view engine (e.g., EJS, Pug, or Handlebars). Here we use EJS as example.
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'Views'));
 app.set('view engine', 'ejs');
 
 // Body parsing middleware
