@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const { render } = require('express/lib/response');
 
 const app = express();
 const PORT = process.env.PORT || 10000;
