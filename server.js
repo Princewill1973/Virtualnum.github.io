@@ -26,6 +26,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Example route that uses render
 app.get("/", (req, res) => {
+  console.log("Rendering from",
+              path.join(_dirname,"Views/index.ejs"));
   res.render("index", { numbers }); // 👈 pass numbers to EJS
 });
 
