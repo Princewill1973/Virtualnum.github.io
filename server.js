@@ -16,6 +16,7 @@ const numbers = [
   { country: "🇺🇸", phone: "+1 202 555 0198", desc: "Free US virtual number.", link: "https://smstome.com" },
   { country: "🇬🇧", phone: "+44 7911 123456", desc: "Free UK virtual number.", link: "https://receive-smss.com" },
   { country: "🇨🇦", phone: "+1 647 555 5678", desc: "Free Canada virtual number.", link: "https://sms24.me" }
+  
 // Body parsing middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
