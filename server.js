@@ -7,8 +7,6 @@ const PORT = process.env.PORT || 10000;
 // Set up the view engine (e.g., EJS, Pug, or Handlebars). Here we use EJS as example.
 app.set('views', path.join(__dirname, 'Views'));
 app.set('view engine', 'ejs');
-app.use(express.static("public")); // for css/js if needed
-app.use(express.static("public")); // for css/js if needed
 
 // Sample numbers data
 const numbers = [
